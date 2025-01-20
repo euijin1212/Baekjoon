@@ -11,9 +11,9 @@ vector <int> vt;
 int fx(int k){     // low_bound 구현
 
     int st = 0;
-    int en = vt.size();
+    int en = vt.size(); 
     int mid = 0;
-    while(st < en){
+    while(st < en){ // 답이 있다는 보장이 있을 경우 항상 (st < en)이 됨 답이 없는 경우 while 조건이 st <= en이 됨
 
         mid = (st+en)/2;
 
